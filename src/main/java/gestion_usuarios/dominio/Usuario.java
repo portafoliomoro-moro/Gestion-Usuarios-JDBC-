@@ -3,7 +3,7 @@ package gestion_usuarios.dominio;
 import java.util.Objects;
 
 public class Usuario {
-    private int id;
+    private int id_usuario;
     private String tipo_documento;
     private String numero_documento;
     private String nombres;
@@ -16,8 +16,8 @@ public class Usuario {
     public Usuario(){}
 
     //Constructor para buscar y eliminar
-    public Usuario(int id){
-        this.id = id;
+    public Usuario(int id_usuario){
+        this.id_usuario = id_usuario;
     }
 
     //Constructor para agregar
@@ -35,19 +35,19 @@ public class Usuario {
     }
 
     //Constructor para modificar
-    public Usuario(int id, String tipo_documento, String numero_documento, String nombres, String apellidos,
+    public Usuario(int id_usuario, String tipo_documento, String numero_documento, String nombres, String apellidos,
                    String direccion, String telefono, String correo, String llave_saber)
     {
         this(tipo_documento, numero_documento, nombres, apellidos, direccion, telefono, correo, llave_saber);
-        this.id = id;
+        this.id_usuario = id_usuario;
     }
 
-    public int getId() {
-        return id;
+    public int getId_usuario() {
+        return id_usuario;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId_usuario(int id_usuario) {
+        this.id_usuario = id_usuario;
     }
 
     public String getTipo_documento() {
@@ -117,7 +117,7 @@ public class Usuario {
     @Override
     public String toString() {
         return "Usuario{" +
-                "id=" + id +
+                "id=" + id_usuario +
                 ", tipo_documento='" + tipo_documento + '\'' +
                 ", numero_documento='" + numero_documento + '\'' +
                 ", nombres='" + nombres + '\'' +
@@ -134,11 +134,11 @@ public class Usuario {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Usuario usuario = (Usuario) o;
-        return id == usuario.id && Objects.equals(tipo_documento, usuario.tipo_documento) && Objects.equals(numero_documento, usuario.numero_documento) && Objects.equals(nombres, usuario.nombres) && Objects.equals(apellidos, usuario.apellidos) && Objects.equals(direccion, usuario.direccion) && Objects.equals(telefono, usuario.telefono) && Objects.equals(correo, usuario.correo) && Objects.equals(llave_saber, usuario.llave_saber);
+        return id_usuario == usuario.id_usuario && Objects.equals(tipo_documento, usuario.tipo_documento) && Objects.equals(numero_documento, usuario.numero_documento) && Objects.equals(nombres, usuario.nombres) && Objects.equals(apellidos, usuario.apellidos) && Objects.equals(direccion, usuario.direccion) && Objects.equals(telefono, usuario.telefono) && Objects.equals(correo, usuario.correo) && Objects.equals(llave_saber, usuario.llave_saber);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, tipo_documento, numero_documento, nombres, apellidos, direccion, telefono, correo, llave_saber);
+        return Objects.hash(id_usuario, tipo_documento, numero_documento, nombres, apellidos, direccion, telefono, correo, llave_saber);
     }
 }
