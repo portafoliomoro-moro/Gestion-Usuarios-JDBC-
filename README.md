@@ -105,17 +105,6 @@ El menú utiliza un objeto del servicio/DAO para ejecutar cada operación.
 
 ---
 
-# 🧪 5. Ejemplo de Ejecución por Consola
-
-```md
-![Resultado en consola]
-([![gestion-usuarios.png](https://i.postimg.cc/sfMrDr70/gestion-usuarios.png)](https://postimg.cc/Z0zgVXfr))
-
-
-```
-
----
-
 # 🚀 Tecnologías Utilizadas
 
 - Java 17+
