@@ -108,8 +108,7 @@ El menú utiliza un objeto del servicio/DAO para ejecutar cada operación.
 # 🧪 5. Ejemplo de Ejecución por Consola
 
 ```md
-![Resultado en consola](ruta/<img width="401" height="266" alt="image" src="https://github.com/user-attachments/assets/210a04c1-caa0-4920-9b58-d6373bc8f582" />
-)
+![Resultado en consola](ruta/C:\Curso\portafolio\java+jdbc\gestion-usuarios\src\main\resources\static)
 
 ```
 
