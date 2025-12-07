@@ -98,7 +98,7 @@ La aplicación presenta un menú interactivo:
 3. Agregar usuario
 4. Modificar usuario
 5. Eliminar usuario
-0. Salir
+6. Salir
 ```
 
 El menú utiliza un objeto del servicio/DAO para ejecutar cada operación.
@@ -108,7 +108,8 @@ El menú utiliza un objeto del servicio/DAO para ejecutar cada operación.
 # 🧪 5. Ejemplo de Ejecución por Consola
 
 ```md
-![Resultado en consola](ruta/img)
+![Resultado en consola](ruta/<img width="401" height="266" alt="image" src="https://github.com/user-attachments/assets/210a04c1-caa0-4920-9b58-d6373bc8f582" />
+)
 
 ```
 
