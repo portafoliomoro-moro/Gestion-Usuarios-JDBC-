@@ -70,10 +70,10 @@ Incluye:
 Define los métodos CRUD:
 
 - `listarUsuarios()`
-- `buscarUsuarioPorId(int id)`
+- `buscarUsuarioPorId(Usuario usuario)`
 - `agregarUsuario(Usuario usuario)`
 - `modificarUsuario(Usuario usuario)`
-- `eliminarUsuario(int id)`
+- `eliminarUsuario(Usuario usuario)`
 
 ### ✔ Implementación `UsuarioDAO`
 Usando:
@@ -107,16 +107,9 @@ El menú utiliza un objeto del servicio/DAO para ejecutar cada operación.
 
 # 🧪 5. Ejemplo de Ejecución por Consola
 
-_Deja aquí una imagen de la salida, por ejemplo:_
-
-```
-[ ESPACIO PARA TU CAPTURA DE CONSOLA ]
-```
-
-Puedes agregarla así:
-
 ```md
-![Resultado en consola](ruta/tu_imagen.png)
+![Resultado en consola](ruta/img)
+
 ```
 
 ---
