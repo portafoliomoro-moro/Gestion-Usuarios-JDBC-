@@ -25,7 +25,7 @@ Este proyecto implementa un sistema básico de **gestión de usuarios** utilizan
  │     └── Conexion.java
  │
  └── presentacion/
-       └── Main.java
+       └── UsuarioApp.java
 ```
 
 ---
