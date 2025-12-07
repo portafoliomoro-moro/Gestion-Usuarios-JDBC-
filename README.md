@@ -108,8 +108,9 @@ El menú utiliza un objeto del servicio/DAO para ejecutar cada operación.
 # 🧪 5. Ejemplo de Ejecución por Consola
 
 ```md
-![Resultado en consola](ruta/)
-<img width="1363" height="725" alt="gestion-usuarios" src="https://github.com/user-attachments/assets/a78dd424-09f0-4238-a110-173f6e96a9a0" />
+![Resultado en consola]
+([![gestion-usuarios.png](https://i.postimg.cc/sfMrDr70/gestion-usuarios.png)](https://postimg.cc/Z0zgVXfr))
+
 
 ```
 
