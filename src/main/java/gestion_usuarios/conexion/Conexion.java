@@ -10,8 +10,8 @@ public class Conexion {
 
         var baseDatos = "biblioteca_db";
         var url = "jdbc:mysql://localhost:3306/" + baseDatos;
-        var usuario = "root";
-        var password = "admin";
+        var usuario = "usuario";
+        var password = "contrasena";
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             conexion = DriverManager.getConnection(url, usuario, password);
